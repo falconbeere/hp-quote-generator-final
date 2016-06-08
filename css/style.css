@@ -1,0 +1,77 @@
+body{
+
+	color: #000;
+}
+body {
+
+
+background: #3D7EAA; 
+background: -webkit-linear-gradient(to left, #3D7EAA , #FFE47A); 
+background: linear-gradient(to left, #3D7EAA , #FFE47A); 
+        
+}
+#container{
+	width:800px;
+	margin:50px auto;
+	padding: 20px;
+	width:50%;
+}
+#container h2{
+	text-align:center;
+	color:#fff;
+  font-family: 'Droid Serif', serif;
+}
+
+#quoteContainer{
+	width:80%;
+	background: 
+	padding: 30px;
+	margin:50px auto;
+	text-align: center;
+  height:90px;
+}
+#quoteContainer p {
+  font-family: 'Fjalla One', sans-serif;
+  color: #fff;
+  font-size: 20px;
+}
+#buttonContainer{
+	width: 100%;
+	text-align: center;
+  font-family: 'Fjalla One', sans-serif;
+}
+#quoteButton{
+	width:200px;
+	margin-top: 10px;
+	border:2px solid #46b8da;
+	color: #fff;
+	font-family: inherit;
+	font-weight: bold;
+	padding:5px;
+	text-decoration: none;
+	text-align: center;
+}
+
+#quoteButton:hover{
+	cursor:pointer;
+	background:#09c;
+	color: #fff;	
+}
+#quoteButton:active{
+	cursor: pointer;
+}
+#quoteButton{
+	display: inline-block;
+}
+#quoteGenius{
+	font-style: italic;
+	font-weight: 600;
+	text-align: center;
+}
+
+/*MEDIA QUERIES*/
+@media screen and(max-width:760px){
+	#quoteButton,#addNew{
+		display: block;
+	}
+}
